@@ -25,7 +25,7 @@ class myKNN():
 				best_dist = dist
 				best_index = i
 		return self.Y_train[best_index]
-	
+
 
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.datasets import load_iris
